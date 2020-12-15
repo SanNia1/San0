@@ -29,7 +29,7 @@
     "hidden": true
    },
    "source": [
-    "Якименко Олександр"
+    "# Якименко"
    ]
   },
   {
@@ -287,7 +287,9 @@
   {
    "cell_type": "code",
    "execution_count": 20,
-   "metadata": {},
+   "metadata": {
+    "scrolled": true
+   },
    "outputs": [
     {
      "data": {
@@ -305,12 +307,30 @@
    ]
   },
   {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "x=10"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "y=5"
+   ]
+  },
+  {
    "cell_type": "markdown",
    "metadata": {
     "hidden": true
    },
    "source": [
-    "### Опрератори\n",
+    "# Опрератори\n",
     "\n",
     "#### арифметичні\n",
     "\n",
@@ -356,6 +376,15 @@
   },
   {
    "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "x+y"
+   ]
+  },
+  {
+   "cell_type": "code",
    "execution_count": 24,
    "metadata": {},
    "outputs": [
@@ -397,7 +426,9 @@
   {
    "cell_type": "code",
    "execution_count": 26,
-   "metadata": {},
+   "metadata": {
+    "scrolled": true
+   },
    "outputs": [
     {
      "data": {
@@ -417,7 +448,9 @@
   {
    "cell_type": "code",
    "execution_count": 27,
-   "metadata": {},
+   "metadata": {
+    "scrolled": true
+   },
    "outputs": [
     {
      "data": {
@@ -552,7 +585,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 36,
+   "execution_count": 74,
    "metadata": {},
    "outputs": [],
    "source": [
@@ -561,7 +594,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 37,
+   "execution_count": 92,
    "metadata": {},
    "outputs": [],
    "source": [
@@ -570,17 +603,85 @@
   },
   {
    "cell_type": "code",
-   "execution_count": null,
+   "execution_count": 93,
    "metadata": {},
-   "outputs": [],
-   "source": []
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "True"
+      ]
+     },
+     "execution_count": 93,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "(x>1) & (y<4)"
+   ]
   },
   {
    "cell_type": "code",
-   "execution_count": null,
+   "execution_count": 100,
    "metadata": {},
-   "outputs": [],
-   "source": []
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "2"
+      ]
+     },
+     "execution_count": 100,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "7^5"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 95,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "-4"
+      ]
+     },
+     "execution_count": 95,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "~y"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 110,
+   "metadata": {
+    "scrolled": true
+   },
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "3"
+      ]
+     },
+     "execution_count": 110,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "7>>1"
+   ]
   },
   {
    "cell_type": "markdown",
@@ -593,7 +694,8 @@
     "2. int(<змінна чи вираз>) - перетворення в ціле\n",
     "3. float(<змінна чи вираз>) - перетворення в дийсне число\n",
     "\n",
-    "[Прочитати про інші функції перетворення типів](https://pyneng.readthedocs.io/ru/latest/book/04_data_structures/9_convert_type.html)\n"
+    "[Прочитати про інші функції перетворення типів\n",
+    "https://pyneng.readthedocs.io/ru/latest/book/04_data_structures/9_convert_type.html)\n"
    ]
   },
   {
@@ -611,7 +713,25 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 44,
+   "execution_count": 124,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "x=10"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 121,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "t=5"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 125,
    "metadata": {},
    "outputs": [
     {
@@ -620,53 +740,159 @@
        "'10'"
       ]
      },
-     "execution_count": 44,
+     "execution_count": 125,
      "metadata": {},
      "output_type": "execute_result"
     }
    ],
    "source": [
-    "str(10)"
+    "str(x)"
    ]
   },
   {
    "cell_type": "code",
-   "execution_count": 45,
+   "execution_count": 122,
    "metadata": {},
    "outputs": [
     {
      "data": {
       "text/plain": [
-       "3"
+       "'5'"
       ]
      },
-     "execution_count": 45,
+     "execution_count": 122,
      "metadata": {},
      "output_type": "execute_result"
     }
    ],
    "source": [
-    "int(3.5)"
+    "str(t)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 126,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "x=4.5"
    ]
   },
   {
    "cell_type": "code",
-   "execution_count": 46,
+   "execution_count": 127,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "s=1.2"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 129,
    "metadata": {},
    "outputs": [
     {
      "data": {
       "text/plain": [
-       "-5.0"
+       "4"
       ]
      },
-     "execution_count": 46,
+     "execution_count": 129,
      "metadata": {},
      "output_type": "execute_result"
     }
    ],
    "source": [
-    "float(-5)"
+    "int(x)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 130,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "1"
+      ]
+     },
+     "execution_count": 130,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "int(s)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 131,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "x=\"7.8\""
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 133,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "y=\"13\""
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 134,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "7.8"
+      ]
+     },
+     "execution_count": 134,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "float(x)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 135,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "13.0"
+      ]
+     },
+     "execution_count": 135,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "float(y)"
    ]
   },
   {
@@ -711,13 +937,72 @@
   },
   {
    "cell_type": "code",
+   "execution_count": 16,
+   "metadata": {
+    "scrolled": true
+   },
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "2.71\n"
+     ]
+    }
+   ],
+   "source": [
+    "e=float(input())"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 36,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "2.71"
+      ]
+     },
+     "execution_count": 36,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "e"
+   ]
+  },
+  {
+   "cell_type": "code",
    "execution_count": null,
    "metadata": {
     "hidden": true
    },
    "outputs": [],
    "source": [
-    "# вивести в консоль 'е' в супені 5\n"
+    "# вивести в консоль 'е' в ступені 5\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 38,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "146.1660310351"
+      ]
+     },
+     "execution_count": 38,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "e**5"
    ]
   },
   {
@@ -741,10 +1026,46 @@
   {
    "cell_type": "code",
    "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "s=input(10)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "s1=int(s)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "s=10"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 137,
    "metadata": {
     "hidden": true
    },
-   "outputs": [],
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Вася Пупкін\n",
+      "1+1 -> 2\n"
+     ]
+    }
+   ],
    "source": [
     "# Рядки можуть бути призначені змінним наприкалд `name` та `surname`, \n",
     "# які можна викликати при використанні оператора print.\n",
@@ -762,8 +1083,18 @@
    },
    "source": [
     "Напишіть нижче, для чого нужна '`,`' та `sep` в функції `print()`:\n",
-    "\n",
-    "..."
+    "'`,`' - для перерахування вихідних данних\n",
+    "`sep` - для розділення вихідних данних"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "\",\"- потрібна для перервахування вихідних данних.\n",
+    "sep- потрібна для розділення вихіжних данних."
    ]
   },
   {
@@ -879,11 +1210,11 @@
    "source": [
     "напишіть, який __if__ спрацював при:\n",
     "\n",
-    "x = -20     ....\n",
+    "x = -20;2\n",
     "\n",
-    "x = 31.5    ....\n",
+    "x = 31.5; 1,2,3\n",
     "\n",
-    "x = 4       ...."
+    "x = 4; 2,3"
    ]
   },
   {
@@ -948,6 +1279,30 @@
    ]
   },
   {
+   "cell_type": "code",
+   "execution_count": 140,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "1\n",
+      "2\n",
+      "3\n",
+      "4\n",
+      "5\n",
+      "6\n",
+      "7\n"
+     ]
+    }
+   ],
+   "source": [
+    "for i in range(1, 8):\n",
+    "  print (i)"
+   ]
+  },
+  {
    "cell_type": "markdown",
    "metadata": {
     "hidden": true
@@ -960,7 +1315,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 11,
+   "execution_count": null,
    "metadata": {
     "hidden": true
    },
@@ -968,6 +1323,22 @@
    "source": [
     "# напишіть нижче код, який сумує числа, які діляться без остатка на 3 \n",
     "# в інтервалі від 10 до 100\n",
+    "\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "n=0\n",
+    "for i in range(10, 100)\n",
+    "    if i % 3 == 0:\n",
+    "        n += i\n",
+    "    else:\n",
+    "            pass\n",
+    "print(n)\n",
     "\n"
    ]
   },
@@ -1003,7 +1374,7 @@
    "source": [
     "поясніть своїми словами, що виконує наведений вище код\n",
     "\n",
-    "..."
+    "цикл не закінчиться поки число не дорівнюватиме 0."
    ]
   },
   {
@@ -1015,8 +1386,25 @@
    "outputs": [],
    "source": [
     "# використовуючи 'while`напишіть нижче код, який сумує числа, \n",
-    "# які діляться без остатка на 3 в інтервалі від 10 до 100\n",
-    "\n"
+    "# які діляться без остатка на 3 в інтервалі від 10 до 100"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "i=10\n",
+    "n=0\n",
+    "\n",
+    "while i<100:\n",
+    "    if i % 3 == 0:\n",
+    "        n += i\n",
+    "    else:\n",
+    "        pass\n",
+    "    \n",
+    "print(n)"
    ]
   },
   {
